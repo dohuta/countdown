@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Heaven CountDown",
+  "author": "taphuynh",
+  "version": "1.0.0",
+  "description": "A wonderful countdown-extension for geniuses",
+  "icons": {
+    "128": "logo128.png",
+    "512": "logo512.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": ["storage", "alarms"]
+}
